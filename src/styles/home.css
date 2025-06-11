@@ -4,11 +4,11 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   background-color: black;
-  font-family: "Inter", sans-serif;
   margin: 0;
 }
 
@@ -26,10 +26,8 @@ li {
   width: 70px;
 }
 
-
 /* Navbar */
 nav {
-
   width: 100%;
   background-color: rgba(3, 3, 3, 0.7);
   color: #ffffff;
@@ -37,11 +35,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 20px;
+  padding: 20px 20px;
+}
+
+.img_nav {
+  height: 55px;
+  width: 70px;
 }
 
 nav img {
-  height: 50px;
+  height: 60px;
   width: 90px;
   filter: grayscale(100%) brightness(1000%);
 }
@@ -76,7 +79,6 @@ nav ul a {
 
 .nav-item {
   margin: 0 15px;
-
   list-style: none;
 }
 
@@ -88,10 +90,13 @@ nav ul a {
   color: white;
   list-style: none;
   text-decoration: none;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
 .nav-link:hover {
   color: #d2ccd3c0;
+  transform: translateY(-5px);
 }
 
 .mobile-menu {
