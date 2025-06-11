@@ -46,13 +46,13 @@ O código-fonte está organizado de forma modular, separando a estrutura (HTML),
 
 | Componente                | Descrição                                                                         |
 | ------------------------- | --------------------------------------------------------------------------------- |
-| **`zzz.html`** | Estrutura da página inicial, contendo o carrossel e a introdução sobre a loja.    |
-| **`cadapio.html`** | Estrutura da página que exibe todas as sobremesas em formato de grade.            |
-| **`reserva.html`** | Contém o formulário para o cliente preencher os dados da reserva.                 |
-| **`trabalheconosco.html`**| Apresenta as informações sobre carreiras e vagas disponíveis.                     |
-| **`z.css`** | Arquivo de estilos dedicado à aparência da página inicial e do rodapé.            |
-| **`style.css`** | Define os estilos específicos para a página do cardápio.                          |
-| **`reserva.css`** | Estiliza o formulário e os elementos da página de reservas.                       |
-| **`trabalheconosco.css`** | Arquivo de estilos para a página "Trabalhe Conosco".                              |
-| **`zz.js`** | Controla a lógica e a funcionalidade do carrossel de imagens na página inicial.   |
-| **`scriptcardpaio.js`** | Adiciona a funcionalidade de "abrir/fechar" para o menu no modo mobile.           |
+| **`index.html`** | Estrutura da página inicial, contendo o carrossel e a introdução sobre a loja.    |
+| **`menu.html`** | Estrutura da página que exibe todas as sobremesas em formato de grade.            |
+| **`reservas.html`** | Contém o formulário para o cliente preencher os dados da reserva.                 |
+| **`trabalhe-conosco.html`**| Apresenta as informações sobre carreiras e vagas disponíveis.                     |
+| **`home.css`** | Arquivo de estilos dedicado à aparência da página inicial e do rodapé.            |
+| **`menu.css`** | Define os estilos específicos para a página do cardápio.                          |
+| **`reservas.css`** | Estiliza o formulário e os elementos da página de reservas.                       |
+| **`trabalhe-conosco.css`** | Arquivo de estilos para a página "Trabalhe Conosco".                              |
+| **`carousel.js`** | Controla a lógica e a funcionalidade do carrossel de imagens na página inicial.   |
+| **`mobile-menu.js`** | Adiciona a funcionalidade de "abrir/fechar" para o menu no modo mobile.           |
